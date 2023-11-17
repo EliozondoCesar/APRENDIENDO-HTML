@@ -8,14 +8,27 @@
     <link rel="stylesheet" href="CSS/style.css"> 
 </head>
 <body>
-  <h1>Aprendiendo html</h1>
+  <h1 id="inicio">Aprendiendo html</h1>
+  <ul >
+    <li><a href="index.HTML#encabezados">ENCABEZADO</a>S</li>
+    <li><a href="index.HTML#textos-basicos">TEXTOS BÁSICOS</a></li>
+    <li><a href="index.HTML#etiquetas-formateo">ETIQUES DE FORMATO</a></li>
+    <li><a href="index.HTML#etiquetas-semanticas">EITIQUETAS SEMÁNTICAS ESTRUCTURALES</a></li>
+    <li><a href="index.HTML#lineas-bloques">ETIQUETAS DE LÍNEAS Y DE BLOQUE</a></li>
+    <li><a href="index.HTML#imagen">IMÁGENES</a></li>
+    <li><a href="index.HTML#figuras">FIGURAS</a></li>
+    <li><a href="index.HTML#listas">LISTAS ORDENADAS</a></li>
+    <li><a href="index.HTML#enlaces">ENLACES</a></li>
+
+   </ul>
   <p>HOLA,Escribiendo mis primeros documentos HTML</p>
-  <h2>Encabezado de nivel 2</h2>
+  <h2 id="encabezados">TUTORIAL DE HTML</h2>
   <h3>Encabezado de nivel 3</h3>
   <h4>Encabezado de nivel 4</h4>
   <h5>Encabezado de nivel 5</h5>
   <h6>Encabezado de nivel 6</h6>
   <hr>
+  <h2 id="texto-basico">Texto básico</h2>
   <p>
     Palabras en : <b>Negrita</b>, <i>Cursiva</i>,<u>Subrayado</u>, e=mc <sup>2</sup>,H <sub>2</sub>O, <mark>Texto resaltado</mark>,<small>Letras pequeñas</small>
     <hr>
@@ -29,7 +42,7 @@
   </p>
   <hr>
   <pre>
-    <h2>ETIQUETAS DE FORMATEO</h2>
+    <h2 id="etiquetas-formateo">ETIQUETAS DE FORMATEO</h2>
     <p>Tareas por hacer:
 En el curso:
       - No faltar a clases.
@@ -41,7 +54,6 @@ En la casa:
       - Pagar las cuentas.
     </p>
   </pre>
-  <hr>
   <p>
     <code>Este texto está en formato de código</code>
   </p>
@@ -54,7 +66,7 @@ En la casa:
     </code>
   </pre>
   <hr>
-  <h2>ETIQUETAS SAMÁNTICAS ESTRUCTURALES</h2>
+  <h2 id="etiquetas-semanticas">ETIQUETAS SEMÁNTICAS ESTRUCTURALES</h2>
   <div style="background-color: yellow;">DIV: Es una etiqueta contenedora que no tiene semántica</div>
   <header style="background-color: violet;">HEADER: cabecera de un sitio web o una seccion</header>
   <main style="background-color: turquoise;">MAIN: define la sección principal del documento, solo puede existir una por documento</main>
@@ -65,7 +77,7 @@ En la casa:
   <section style="background-color: skyblue;">SECTION: representa una sección de contenido genérico</section>
   <address style="background-color: sienna;">ADDRESS: representa una dirección física</address>
   <hr>
-  <h2>Etiquetas de líneas y de bloque</h2>
+  <h2 id="lineas-bloques">Etiquetas de líneas y de bloque</h2>
   <div style="background-color: lime;">La etiqueta de bloque por exelencia es la DIV</div>
   <span style="background-color: yellowgreen;">La etiqueta de línea por exelencia es la SPAN</span>
   <span>Hola, soy otra SPAN</span>
@@ -74,19 +86,19 @@ En la casa:
   </Script>
   <script src="JS/codigo.js"></script>
   <hr>
-  <h2>Imágenes</h2>
+  <h2 id="imagen">Imágenes</h2>
   <img src="IMG/halloween-ilustracion-vectorial-png-fondo-blanco-hiperdetalle-maximo-detalle_921410-41492.webp" alt="Tabla">
   <img src="IMG/ilustracion-cabeza-perro-sobre-fondo-blanco_1024046-6872.jpg" alt="Tabla2">
   <img src="IMG/zanahoria-salta-sonrie-manera-linda-divertida-ai_894067-467.jpg" alt="Zanahoriaaa">
   <img src="IMG/one-piece-anime-usagif-animation-1.gif" alt="luffy">
   <hr>
-  <h2>Figuras</h2>
+  <h2 id="figuras">Figuras</h2>
   <figure>
     <img src="IMG/zanahoria-salta-sonrie-manera-linda-divertida-ai_894067-467.jpg" alt="ZANAHORIA FELIZ">
     <figcaption>Zanahoria feliz</figcaption>
   </figure>
   <hr>
-  <h2>Listas ordenadas</h2>
+  <h2 id="listas">Listas ordenadas</h2>
   <h3>Estaciones del año</h3>
   <ol>
     <li>Pimavera</li>
@@ -102,7 +114,16 @@ En la casa:
     <li>Invierno</li>
     </ol>
     <hr>
-   <h2>Enlaces</h2> 
+   <h2 id="enlaces">Enlaces</h2> 
    <a href="index2.html">llendo al nuevo archivo</a>
+   <br>
+   <a href="https://github.com/" target="_blank"real="nofollow">visita mi sitio web</a>
+   <br><br>
+   <hr>
+   <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="IMG/whatsapp.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a>
+   <a href="index.HTML#inicio"><img src="IMG/2026751.png" alt="imagen que lleva al inicio" width="50"></a>
+   <hr>
+   
+   
 </body>
 </html>

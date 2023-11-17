@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 h2 {
     color: red;
 }
@@ -7,4 +10,13 @@ img {
 }
 figcaption {
     text-align: center;
+}
+a{
+text-decoration: none;
+text-align: center;
+
+}
+li{
+    list-style-type: none;
+    
 }
