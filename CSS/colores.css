@@ -1,0 +1,22 @@
+.colores {
+color: tomato;
+background-color: yellow;
+margin: 100px 50px;
+text-align: center;
+
+}
+.color1 {
+    color: 001B79;
+}
+p {
+background-color: black;
+padding: 50px;
+}
+.E {
+    background-color: blue;
+    display: inline-block;
+}
+.Q {
+    background-color: chartreuse;
+    display: block;
+}

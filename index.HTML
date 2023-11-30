@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Estamos aprendiendo sobre html en catamarca">
     <title>APRENDIENDO HTML</title>
-    <link rel="stylesheet" href="CSS/style.css"> 
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/colores.css"> 
 </head>
 <body>
-  <h1 id="inicio">Aprendiendo html</h1>
+  <h1 id="inicio" class="colores">Aprendiendo html</h1>
   <ul >
-    <li><a href="index.HTML#encabezados">ENCABEZADO</a>S</li>
+    <li><a href="index.HTML#encabezados">ENCABEZADOS</a></li>
     <li><a href="index.HTML#textos-basicos">TEXTOS BÁSICOS</a></li>
     <li><a href="index.HTML#etiquetas-formateo">ETIQUES DE FORMATO</a></li>
     <li><a href="index.HTML#etiquetas-semanticas">EITIQUETAS SEMÁNTICAS ESTRUCTURALES</a></li>
@@ -20,11 +21,15 @@
     <li><a href="index.HTML#listas">LISTAS ORDENADAS</a></li>
     <li><a href="index.HTML#enlaces">ENLACES</a></li>
     <li><a href="index.HTML#enlaces2">ENLACES ESPECIALES</a></li>
+    <li><a href="index.HTML#elementosIn">ELEMENTOS INTERACTIVOS</a></li>
+    <li><a href="index.HTML#audio-video">AUDIO Y VIDEO</a></li>
+    <li><a href="index.HTML#fomularios">FORMULARIOS</a></li>
+    <li><a href="index.HTML#atributos-de-formularios">ATRIBUTOS DE FORMULARIOS</a></li>
    </ul>
   <p>HOLA,Escribiendo mis primeros documentos HTML</p>
   <h2 id="encabezados">TUTORIAL DE HTML</h2>
-  <h3>Encabezado de nivel 3</h3>
-  <h4>Encabezado de nivel 4</h4>
+  <h3 class="estilo1">Encabezado de nivel 3</h3>
+  <h4 class="color1">Encabezado de nivel 4</h4>
   <h5>Encabezado de nivel 5</h5>
   <h6>Encabezado de nivel 6</h6>
   <hr>
@@ -37,7 +42,7 @@
   </p>
   <blockquote>Sólo se que no se nada</blockquote>
   <cite>Sócrates</cite>
-  <p>
+  <p class="estilo1">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Exercitationem itaque minus iusto sapiente repellendus optio accusantium culpa. <br> Commodi error iure, <br> <br> modi autem fuga quis dicta magni! Cum voluptatibus culpa dolores. 
   </p>
   <hr>
@@ -126,7 +131,90 @@ En la casa:
    <a href="tel:3834594836">Enlace a telefono</a><br>
   <a href="https://web.whatsapp.com/send?phone=543834594836&text=Usuario de tu página web -Repaso HTML- quiere contactarse contigo" target="_blank">Enlace a whatsapp</a><br>
    <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><img src="IMG/whatsapp.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a><br><br>
+   <hr>
+   <h2 id="elementosIn">Elementos interactivos</h2>
+   <button onclick="alert">Este es un botón</button><br>
+   <button onclick="console.log">Este es un botón</button><br>
+   <details>
+    <summary>Título del acordeón</summary>
+    <article>
+      <h3>Contenido del acordeón</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores molestiae soluta facilis optio deleniti commodi recusandae, adipisci animi reiciendis, similique excepturi mollitia, facere id autem quis amet architecto explicabo.</p>
+      <img src="IMG/R.jpg" alt="PAISAJE">
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia natus pariatur maiores, possimus impedit beatae temporibus eaque neque in nemo doloribus illo ad porro dolore omnis optio distinctio repellat quod.</P>
+    </article>
+   </details>
+   <h2 id="audio-video">Audio y Video</h2>
+   <audio src="audio y video/pexels_videos_1580455 (1080p).mp4" controls></audio><br>
+   <a href="index.HTML#inicio">NOSE</a>
+   <video src="audio y video/pexels-cesar-casanova-10413790 (Original).mp4" width="100%" controls preload="auto" poster="IMG/pexels-piet-bakker-68421.jpg"></video><br>
+   <h2 id="fomularios">Formularios</h2>
+   <h3>Elementos de Formularios</h3>
+   <input type="text"><br>
+   <input type="checkbox"><br>
+   <input type="radio"><br>
+   <input type="date"><br>
+   <input type="color"><br>
+   <input type="button" value="Botón"><br>
+   <input type="submit"><br>
+   <input type="reset"><br>
+   <input type="file"><br>
+   <input type="file"><br>
+   <input type="file" multiple><br>
+   <input type="hidden" name="idioma" value="es"><br>
+   <input type="email"><br>
+   <input type="number"><br>
+   <input type="tel"><br>
+   <input type="password"><br>
+   <input type="search"><br>
+   <textarea cols="50" rows="5"></textarea>
+   <select name="" id="">
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JS</option>
+   </select>
+   <select name="" id="" multiple>
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">SJ</option>
+   </select>
+<h2 id="atributos-de-formularios">Atributos de Formularios</h2>
+<input type="text" value="CesarElizondo" readonly>
+<input type="text"value="CesarElizondo" disabled><br>
+<input type="text" placeholder="Escribe tu nombre"><br>
+<h3>Atributos dentro de un formulario</h3>
+<h4>Formulario Login</h4>
+<form action="https://www.youtube.com/watch?v=8JopVItb7l8" target="_blank" method="post">
+  <input type="text" name="usuario">
+  <br>
+  <input type="password" name="contraseña"><br>
+  <input type="submit"><br>
+  <input type="reset">
+</form>
+<h4>Formulario de contacto</h4>
+<form action="">
+  <input type="text" name="Nombre" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" required>
+  <input type="text" name="Correo" placeholder="Escribe tu correo electrónico" title="Formato de correo inválido" required><br>
+  <textarea name="comentarios" cols="30" rows="10"></textarea><br>
+  <input type="submit">
+</form>
+<form action="https://formsubmit.co/gabrielelizondo5678@gmail.com" method="POST">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <button type="submit">Send</button>
+</form>
    <a href="index.HTML#inicio"><img src="IMG/2026751.png" alt="imagen que lleva al inicio" width="50"></a>
+   <h2 id="bloquesLi">Bloques y Lineas</h2>
+   <h2 class="E">Subtítulo 1</h2>
+   <h2 class="E">Subtítulo 2</h2>
+   <h2 class="E">Subtítulo 3</h2>
+<div>
+  <a href="#" class="Q">Enlace 1</a>
+  <a href="#" class="Q">Enlace 2</a>
+  <a href="#" class="Q">Enlace 3</a>
+  <a href="#" class="Q">Enlace 4</a>
+</div>
+
    <hr>
 </body>
 </html>
