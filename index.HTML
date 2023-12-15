@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/colores.css"> 
 </head>
-<body>
+<body style="background-image: url(IMG/R.jpg);" >
   <h1 id="inicio" class="colores">Aprendiendo html</h1>
-  <ul >
+  <nav class="nav-inicio">
+    <a href="#" class="HOLA">INICIO</a>
+    <a href="#" class="HOLA">NOSOTROS</a> 
+    <a href="index.HTML#enlaces2" class="HOLA">CONTACTO</a>
+  </nav><br>
+  <ul class="ETIQUETA">
     <li><a href="index.HTML#encabezados">ENCABEZADOS</a></li>
     <li><a href="index.HTML#textos-basicos">TEXTOS BÁSICOS</a></li>
     <li><a href="index.HTML#etiquetas-formateo">ETIQUES DE FORMATO</a></li>
@@ -24,7 +29,9 @@
     <li><a href="index.HTML#elementosIn">ELEMENTOS INTERACTIVOS</a></li>
     <li><a href="index.HTML#audio-video">AUDIO Y VIDEO</a></li>
     <li><a href="index.HTML#fomularios">FORMULARIOS</a></li>
-    <li><a href="index.HTML#atributos-de-formularios">ATRIBUTOS DE FORMULARIOS</a></li>
+    <li><a href="index.HTML#atributos-de-formularios">ATRIBUTOS DE FORMULARIOS</a>
+    <li><a href="index.HTML#bloquesLi">BLOQUES Y LINEAS</a></li>
+  </li>
    </ul>
   <p>HOLA,Escribiendo mis primeros documentos HTML</p>
   <h2 id="encabezados">TUTORIAL DE HTML</h2>
@@ -105,14 +112,14 @@ En la casa:
   <hr>
   <h2 id="listas">Listas ordenadas</h2>
   <h3>Estaciones del año</h3>
-  <ol>
+  <ol class="ETIQUETA">
     <li>Pimavera</li>
     <li>Verano</li>
     <li>Otoño</li>
     <li>Invierno</li>
     
   </ol>
-  <ol start="15">
+  <ol start="15" class="ETIQUETA">
     <li>Pimavera</li>
     <li>Verano</li>
     <li>Otoño</li>
@@ -176,9 +183,10 @@ En la casa:
    <select name="" id="" multiple>
     <option value="">HTML</option>
     <option value="">CSS</option>
-    <option value="">SJ</option>
+    < option value="">SJ</option>
    </select>
-<h2 id="atributos-de-formularios">Atributos de Formularios</h2>
+<ul class="ETIQUETA">
+   <h2 id="atributos-de-formularios">Atributos de Formularios</h2>
 <input type="text" value="CesarElizondo" readonly>
 <input type="text"value="CesarElizondo" disabled><br>
 <input type="text" placeholder="Escribe tu nombre"><br>
@@ -203,7 +211,7 @@ En la casa:
   <input type="email" name="email" required>
   <button type="submit">Send</button>
 </form>
-   <a href="index.HTML#inicio"><img src="IMG/2026751.png" alt="imagen que lleva al inicio" width="50"></a>
+   
    <h2 id="bloquesLi">Bloques y Lineas</h2>
    <h2 class="E">Subtítulo 1</h2>
    <h2 class="E">Subtítulo 2</h2>
@@ -214,7 +222,17 @@ En la casa:
   <a href="#" class="Q">Enlace 3</a>
   <a href="#" class="Q">Enlace 4</a>
 </div>
+<button>Enviar</button><br>
+<section class="contenedor-padre">
+  <p class="columnas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque cum consectetur incidunt, sint nesciunt nam provident rem, obcaecati enim officia recusandae consequuntur sunt sit minima esse dicta dignissimos! Similique, quaerat!</p>
+  <p class="columnas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque cum consectetur incidunt, sint nesciunt nam provident rem, obcaecati enim officia recusandae consequuntur sunt sit minima esse dicta dignissimos! Similique, quaerat!</p>
+  <p class="columnas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque cum consectetur incidunt, sint nesciunt nam provident rem, obcaecati enim officia recusandae consequuntur sunt sit minima esse dicta dignissimos! Similique, quaerat!</p>
+</section>
+</ul>
+
+<a href="index.HTML#inicio"><img src="IMG/2026751.png" alt="imagen que lleva al inicio" width="50"></a>
 
    <hr>
+
 </body>
 </html>
